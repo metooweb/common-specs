@@ -1,5 +1,4 @@
 Pod::Spec.new do |s|
-
   s.name         = "ATAuthSDK"
   s.version      = "2.5.6"
   s.summary      = "Aliyun ATAuthSDK"
@@ -7,8 +6,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :http => "http://common-specs.metooweb.com/ATAuthSDK/2.5.6/ATAuthSDK.zip" }
   s.vendored_frameworks = 'ATAuthSDK.framework'
-  s.frameworks = 'Foundation'
-  s.requires_arc = true
-  s.xcconfig = {	'OTHER_LDFLAGS' => '-ObjC'}
-
+  s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
 end
