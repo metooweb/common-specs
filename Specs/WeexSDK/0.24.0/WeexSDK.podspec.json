@@ -1,5 +1,5 @@
-
-  "name": "WeexSDK",
+{
+"name": "WeexSDK",
   "version": "0.24.0",
   "summary": "WeexSDK Source.",
   "description": "A framework for building Mobile cross-platform UI",
