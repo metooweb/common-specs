@@ -36,7 +36,10 @@ Pod::Spec.new do |s|
   # }
 
   # use for playground
-  s.source =  { :path => '.' }
+  s.source =  {
+    "git": "https://github.com/apache/incubator-weex.git",
+    "tag": "0.20.1"
+}
 
   s.source_files = 'ios/sdk/WeexSDK/Sources/**/*.{h,m,mm,c,cpp,cc}',
                     'weex_core/Source/base/**/*.{h,hpp,m,mm,c,cpp,cc}',
