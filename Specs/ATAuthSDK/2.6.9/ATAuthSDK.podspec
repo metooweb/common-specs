@@ -6,6 +6,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :http => "http://common-specs.metooweb.com/ATAuthSDK/2.6.9/ATAuthSDK.zip" }
   s.vendored_frameworks = 'ATAuthSDK.framework'
-
+  s.resource_bundles = {
+	'ATAuthSDKResource' => ['ATAuthSDK.bundle/*'],
+	'TYRZResource' => ['TYRZResource.bundle/*']
+	}
   
 end
